@@ -97,3 +97,15 @@ Do NOT modify this file if you dont know what youre doing.
     /* User Panel Position (top/bottom) */
     --userpanel-position: 0; /* -1 to move it to the top, 0 for bottom */
 }
+
+/* Titlebar/Wordmark */
+
+.titleBar-1it3bQ .wordmark-2u86JB {
+  width: 100vw;
+}
+.wordmark-2u86JB::before {
+  content:"";
+}
+.wordmark-2u86JB::after {
+  content: "";
+}
